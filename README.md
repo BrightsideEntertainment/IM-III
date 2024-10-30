@@ -1,7 +1,7 @@
 # IM III
  Repository for Josue und Thomas
 
- IM03_API – Initiative Vaillantstrasse Thomas und Josue
+ IM03_API – Initiative Vadiantstrasse Thomas und Josue
 Kurzbeschreibung des Projekts
 In unserem Projekt sammeln wir die Daten von einer Strasse in St. Gallen. Hier werden die Fussgänger gezählt. Mit diesen Daten kann man dann entscheiden, wann man bei uns Werbung schalten möchte.
 Unsere Vorgehensweise
