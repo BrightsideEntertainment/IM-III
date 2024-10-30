@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Neumarktstraße - Schmale Fahrradwege</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    
+        <!-- Auffallender Titel -->
+        <header>
+            <h1>Viele Verletzte wegen zu schmalen Fahrradwegen auf der Neumarktstraße</h1>
+        </header>
+    
+        <!-- Zeitungsartikel (nachgestellt) -->
+        <section id="articles">
+            <article>
+                <h2>Fall 1: Radfahrer schwer verletzt</h2>
+                <p>In der letzten Woche stürzte ein Radfahrer schwer, als er einem entgegenkommenden Rad ausweichen musste...</p>
+            </article>
+            <article>
+                <h2>Fall 2: Unfallserie in der Neumarktstraße</h2>
+                <p>Im vergangenen Monat gab es eine Reihe von Unfällen aufgrund der engen Fahrradwege...</p>
+            </article>
+            <article>
+                <h2>Fall 3: Verletzungen durch überfüllte Geh- und Fahrradwege</h2>
+                <p>Die überfüllten Gehwege zwingen Fahrradfahrer auf die Straßen, was zu zahlreichen Unfällen führt...</p>
+            </article>
+        </section>
+    
+        <!-- API Analyse -->
+        <section id="api-analysis">
+            <h2>Analyse: Sinkende Anzahl von Fußgängern und Radfahrern auf der Neumarktstraße</h2>
+
+            <!-- Dropdown zum Wechsel der Ansicht -->
+            <label for="view-filter">Ansicht auswählen:</label>
+            <select id="view-filter" onchange="changeView()">
+                <option value="month">Monatsansicht (letzte 5 Monate)</option>
+                <option value="day">Tagesansicht (letzte 7 Tage)</option>
+            </select>
+
+            <!-- Chart.js Diagramm -->
+            <canvas id="myChart" width="400" height="200"></canvas>
+        </section>
+    
+        <!-- Petition -->
+        <section id="petition">
+            <h2>Unterschreiben Sie die Petition für breitere Fahrradwege!</h2>
+            <button id="sign-petition">Petition unterschreiben</button>
+        </section>
+    
+        <!-- Chart.js Script eingebunden -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+        <!-- Verweis auf das externe Script -->
+        <script src="script.js"></script>
+    </body>
+</html>
